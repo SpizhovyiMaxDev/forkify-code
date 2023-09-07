@@ -206,12 +206,9 @@ function removeIngredients(){
   renderShoppingPagination.render(model.state);
 }
 
-function newFeature(){
-  console.log('Welcome to the application!')
-}
+
 
 function init(){
-  newFeature();
   bookmarksView.addHandlerRender(controlBookmarks);
   recipeView.addHandlerRender(controlRecipes);
   recipeView.addHandlerUpdateServings(controlServings);
