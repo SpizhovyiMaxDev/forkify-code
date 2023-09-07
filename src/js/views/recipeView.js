@@ -1,7 +1,7 @@
 // import icons from '../img/icons.svg'; // Parcel 1
 import icons from '../../img/icons.svg'; // Parcel 2
 // .. - Parent folder('src' folder) 
-import {Fraction} from 'fractional';
+import { Fraction } from 'fractional';
 import View from './View';
 
 class RecipeView extends View { 
