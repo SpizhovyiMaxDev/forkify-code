@@ -219,7 +219,7 @@ function init(){
   recipeView.addHandlerRenderRecipes(addRecipes);
   removeIngredient.addHandlerRemoveIngredient(removeShoppingIngredient);
   removeIngredient.addHandlerRemoveIngredients(removeIngredients);
-    // SortRecepies.addHandlerSortViewResults(sortRecepies);
+    // SortRecepies.addHandlerSortViewResults(sortRecepies)
 }
 
 init();
