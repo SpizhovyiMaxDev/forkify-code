@@ -220,7 +220,6 @@ function init(){
   removeIngredient.addHandlerRemoveIngredient(removeShoppingIngredient);
   removeIngredient.addHandlerRemoveIngredients(removeIngredients);
     // SortRecepies.addHandlerSortViewResults(sortRecepies);
-  alert('Hacked')
 }
 
 init();
