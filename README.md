@@ -1,6 +1,6 @@
 # Forkify
 
--------------⚙️ Forkify features s----------------
+-------------⚙️ Forkify features ----------------
 
  -->🍽️  Find Recipes: Search and discover a wide variety of recipes based on preferences.
 
