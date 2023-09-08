@@ -2,7 +2,7 @@ import View from './View';
 // import icons from '../img/icons.svg'; // Parcel 1
 import icons from '../../img/icons.svg'; // Parcel 2
 // .. - Parent folder('src' folder) 
-import { Fraction } from 'fractional';
+// import { Fraction } from 'fractional';
 
 
 class RecipeView extends View { 
@@ -124,7 +124,7 @@ class RecipeView extends View {
                 <svg class="recipe__icon">
                 <use href="${icons}#icon-check"></use>
                 </svg>
-                <div class="recipe__quantity">${ing.quantity ? new Fraction(ing.quantity).toString() : ''}</div>
+                <div class="recipe__quantity">${ing.quantity}</div>
                 <div class="recipe__description">
                 <span class="recipe__unit">${ing.unit}</span>
                 ${ing.description}
